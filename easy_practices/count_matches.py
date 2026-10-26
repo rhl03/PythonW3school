@@ -6,5 +6,9 @@ for i in range(n):
 target = int(input())
 
 # Count and print
-for i in range(n + 1):
-    count = input()
+count = 0
+for num in numbers:
+    if num == target:
+        count += 1
+
+print(f"Count: {count}")
